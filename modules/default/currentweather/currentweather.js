@@ -36,7 +36,7 @@ Module.register("currentweather",{
 		appendLocationNameToHeader: true,
 		calendarClass: "calendar",
 
-		onlyTemp: false,
+		onlyTemp: true,
 		roundTemp: false,
 
 		iconTable: {

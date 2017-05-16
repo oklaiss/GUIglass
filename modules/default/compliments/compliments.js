@@ -12,25 +12,18 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Traffic conditions are normal",
+				"Remember to eat your veggies!",
+				"You have 2 upcoming events!"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
 			]
 		},
-		updateInterval: 30000,
+		updateInterval: 12000,
 		remoteFile: null,
 		fadeSpeed: 4000
 	},

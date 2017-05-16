@@ -55,46 +55,20 @@ If use the currentweather is possible use a actual weather for set compliments. 
 * `night_snow`
 * `night_alt_cloudy_windy`
 
-#### Example use with currentweather module
-````javascript
-config: {
-	compliments: {
-		day_sunny: [
-			"Today is a sunny day",
-			"It's a beautiful day"
-		],
-		snow: [
-			"Snowball battle!"
-		],
-		rain: [
-			"Don't forget your umbrella"
-		]
-	}
-}
-````
-
-
 #### Default value:
 ````javascript
 config: {
 	compliments: {
 		anytime: [
-			"Hey there sexy!"
+			"Traffic conditions are usual.",
+			"Remember to eat your veggies!",
+			"You have 2 upcoming events"
 		],
 		morning: [
-			"Good morning, handsome!",
-			"Enjoy your day!",
-			"How was your sleep?"
 		],
 		afternoon: [
-			"Hello, beauty!",
-			'You look sexy!',
-			"Looking good today!"
 		],
 		evening: [
-			"Wow, you look hot!",
-			"You look nice!",
-			"Hi, sexy!"
 		]
 	}
 }
